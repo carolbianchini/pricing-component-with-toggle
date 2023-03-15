@@ -1,52 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Pricing Component with Toggle</title>
 </head>
 <body>
+  <header>
+    <h1>Our Pricing</h1>
+    <p>Annually
+      Monthly</p>
+  </header>
+  <main>
+  <ul>
+    <li class="basic">
+      <p>Basic</p>
+      <h2 class="monthly">&dollar;19.99</h2>
+      <h2 class="annually">&dollar;199.99</h2>
+      <p>500 GB Storage</p>
+      <p>2 Users Allowed</p> 
+      <p>Send up to 3 GB</p>
+      <button>Learn More</button>
+    </li>
 
-  Our Pricing
-  Annually
-  Monthly
+    <li class="Professional">
+      <p>Professional</p>
+      <h2 class="monthly">&dollar;24.99</h2>
+      <h2 class="annually">&dollar;249.99</h2>
+      <p>1 TB Storage</p>
+      <p>5 Users Allowed</p> 
+      <p>Send up to 10 GB</p>
+      <button>Learn More</button>
+    </li>
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+    <li class="Master">
+      <p>Master</p>
+      <h2 class="monthly">&dollar;39.99</h2>
+      <h2 class="annually">&dollar;399.99</h2>
+      <p>2 TB Storage</p>
+      <p>10 Users Allowed</p>
+      <p>Send up to 20 GB</p>
+      <button>Learn More</button>
+    </li>
+</ul>
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
 
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
-  
+</main>
+<footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+</footer>
 </body>
 </html>
