@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   <title>Pricing Component with Toggle</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
   <header>
     <h1>Our Pricing</h1>
-    <p>Annually
-      Monthly</p>
+    <p>Annually Monthly</p>
   </header>
+  
   <main>
-  <ul>
+  <ul class="product">
     <li class="basic">
       <p>Basic</p>
       <h2 class="monthly">&dollar;19.99</h2>
@@ -24,7 +25,7 @@
       <button>Learn More</button>
     </li>
 
-    <li class="Professional">
+    <li class="professional">
       <p>Professional</p>
       <h2 class="monthly">&dollar;24.99</h2>
       <h2 class="annually">&dollar;249.99</h2>
@@ -34,7 +35,8 @@
       <button>Learn More</button>
     </li>
 
-    <li class="Master">
+    <li>
+      <div class="master">
       <p>Master</p>
       <h2 class="monthly">&dollar;39.99</h2>
       <h2 class="annually">&dollar;399.99</h2>
@@ -42,11 +44,11 @@
       <p>10 Users Allowed</p>
       <p>Send up to 20 GB</p>
       <button>Learn More</button>
+    </div>
     </li>
 </ul>
-
-
 </main>
+
 <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

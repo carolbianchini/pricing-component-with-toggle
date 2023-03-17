@@ -1,6 +1,11 @@
+:root {
+    --height:250px;
+}
+
 main {
 background: url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-bottom.svg") no-repeat bottom left, url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-top.svg") no-repeat top right;
 background-size: 20%;
+height: 100vh;
 }
 
 .product {
@@ -9,27 +14,15 @@ background-size: 20%;
     justify-content: center;
 }
 
-.product li {
-   text-align: center;
-   box-sizing: border-box;
+li {
+   list-style: none;
+   padding: 2rem 4rem;
    border: 2px solid black;
+   height: var(--height);
+   text-align: center;
 }
 
-.professional {
-    width: 250px;
-    margin: 40px;
+li:nth-child(2) {
+    height: calc(var(--height) + 30px);
+    margin-top: -15px;
 }
-
-.basic, .master {
-    width: 200px;
-    margin: 20px;
-}
-
-
-.annually {
-    display: none;
-}
-
-
-
-
