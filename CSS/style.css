@@ -2,27 +2,57 @@
     --height:250px;
 }
 
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(231, 16%, 91%);
+}
+
 main {
 background: url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-bottom.svg") no-repeat bottom left, url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-top.svg") no-repeat top right;
 background-size: 20%;
-height: 100vh;
+height: 80vh;
+background-color:hsl(240, 78%, 98%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 75%;
+margin: 70px;
+box-shadow: 5px 5px 5px 10px hsl(240, 50%, 98%);
 }
+
+.head {
+    text-align: center;
+    margin: 45px auto;
+}
+
 
 .product {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; 
 }
 
 li {
    list-style: none;
    padding: 2rem 4rem;
-   border: 2px solid black;
+   border: 1px solid white;
    height: var(--height);
    text-align: center;
+   border-radius: 10px;
+   
 }
 
 li:nth-child(2) {
     height: calc(var(--height) + 30px);
     margin-top: -15px;
+    background: linear-gradient(110deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%))
+}
+
+.basic, .master {
+    background-color: white;
 }
