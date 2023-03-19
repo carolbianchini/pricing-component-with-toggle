@@ -1,9 +1,9 @@
 :root {
-    --height:250px;
+    --height:340px;
 }
 
 body {
-    width: 100%;
+    font-family: 'Overpass', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,38 +21,164 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 75%;
-margin: 70px;
-box-shadow: 5px 5px 5px 10px hsl(240, 50%, 98%);
+margin: 70px auto;
+box-shadow: 10px 10px 7px 10px hsl(240, 89%, 89%);
+font-weight: bold;
+padding: 0 50px 0 0;
 }
 
 .head {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 45px auto;
+    color:hsl(233, 13%, 49%);
+    font-size: 12px;
 }
 
+h1 {
+    text-align: center;
+    color:hsl(232, 13%, 33%);
+}
+
+
+.head p {
+    color: hsl(233, 13%, 49%);
+    font-size: 12px;
+}
+
+.annually {
+    display: none;
+}
 
 .product {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
 }
 
 li {
    list-style: none;
-   padding: 2rem 4rem;
-   border: 1px solid white;
+   padding: 0 20px;
    height: var(--height);
    text-align: center;
    border-radius: 10px;
-   
+   width: 220px;
+   font-size: 15px;
 }
 
 li:nth-child(2) {
-    height: calc(var(--height) + 30px);
+    height: var(--height);
     margin-top: -15px;
-    background: linear-gradient(110deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%))
+    background: linear-gradient(110deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    padding: 15px 25px;
 }
 
 .basic, .master {
     background-color: white;
+    box-shadow: 10px 10px 7px 2px hsl(240, 89%, 89%);
+}
+
+.basic p, .master p {
+    color: hsl(233, 13%, 49%);
+}
+
+.basic h3, .master h3 {
+    color: hsl(233, 13%, 49%);
+}
+
+.basic button, .master button {
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid hsl(236, 72%, 79%);
+    background: linear-gradient(110deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    width: 220px;
+    text-align: center;
+}
+
+.basic button:focus{
+    background: linear-gradient(110deg, white, hsl(238, 29%, 81%));
+    color: hsl(237, 63%, 64%);
+}
+
+
+.master button:focus{
+    background: linear-gradient(110deg, white, hsl(238, 29%, 81%));
+    color: hsl(237, 63%, 64%);
+}
+
+.professional button:focus{
+    background: linear-gradient(110deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white; 
+}
+
+.professional button {
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid hsl(236, 72%, 79%);
+    background: linear-gradient(110deg, white, hsl(238, 29%, 81%));
+    color: hsl(237, 63%, 64%);
+    width: 220px;
+    text-align: center;
+}
+
+button {
+    margin: 35px auto;
+    cursor: pointer;
+    transition: 420ms;
+}
+
+p {
+    border-top: 1px solid hsl(240, 6%, 73%);
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.basic h2, .master h2 {
+    color: hsl(232, 13%, 33%);
+}
+
+
+.toggle-btn label {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 25px;
+    background: #aaa;
+    border-radius: 30px;
+    transition: all 300ms linear;
+    margin: 0 15px 0 15px;
+    
+}
+
+.toggle-btn label:before {
+    position: relative;
+    content:"";
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    display: block;
+    border-radius: 50%;
+    top: 2.5px;
+    left: 4px;
+    transition: all 300ms linear;
+}
+
+.toggle-btn input:checked + label {
+    background: red;
+}
+
+.toggle-btn input:checked + label:before {
+    left: 25px;
+}
+
+.toggle-btn input {
+    display: none;
 }

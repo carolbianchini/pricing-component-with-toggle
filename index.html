@@ -5,20 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pricing Component with Toggle</title>
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <main>
     <section class="main-content">
-      <div class="head">
+      
       <h1>Our Pricing</h1>
-      <p>Annually Monthly</p>
+      <div class="head">
+        <div class="title2"><h4>Mensally</h4></div>
+        <div class="toggle-btn">
+        <input type="checkbox" id="toggle-btn1">
+        <label for="toggle-btn1"></label>
+        </div>
+      <div class="title1"><h4>Annually</h4></div>
+      
       </div>
+      
     
   <ul class="product">
     <li class="basic">
-      <p>Basic</p>
+      <h3>Basic</h3>
       <h2 class="monthly">&dollar;19.99</h2>
       <h2 class="annually">&dollar;199.99</h2>
       <p>500 GB Storage</p>
@@ -28,7 +39,7 @@
     </li>
 
     <li class="professional">
-      <p>Professional</p>
+      <h3>Professional</h3>
       <h2 class="monthly">&dollar;24.99</h2>
       <h2 class="annually">&dollar;249.99</h2>
       <p>1 TB Storage</p>
@@ -38,7 +49,7 @@
     </li>
 
     <li class="master">
-      <p>Master</p>
+      <h3>Master</h3>
       <h2 class="monthly">&dollar;39.99</h2>
       <h2 class="annually">&dollar;399.99</h2>
       <p>2 TB Storage</p>
