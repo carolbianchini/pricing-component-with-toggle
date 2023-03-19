@@ -12,7 +12,7 @@ body {
 }
 
 main {
-background: url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-bottom.svg") no-repeat bottom left, url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-top.svg") no-repeat top right;
+background: url("images/bg-bottom.svg") no-repeat bottom left, url("images/bg-top.svg") no-repeat top right;
 background-size: 20%;
 height: 80vh;
 background-color:hsl(240, 78%, 98%);
