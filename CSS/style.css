@@ -179,18 +179,50 @@ h2 {
     display: none;
 }
 
+.attribution {
+    font-size: 12px;
+    color:hsl(232, 13%, 33%);
+}
+
+a {
+    color:hsl(232, 13%, 33%);
+}
+
 @media screen and (max-width: 480px) {
-    main  {
+    body  {
         width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: auto;
+        text-align: center;
+        height: 1600px;
+        background: url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-bottom.svg") no-repeat bottom left, url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-top.svg") no-repeat top right;
+        background-color:hsl(240, 78%, 98%);
     }
 
+    main {
+        background: none;
+        box-shadow: none;
+    }
 
+    .product {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .basic, .professional, .master {
+        margin: 15px;
+    }
+    li:nth-child(2) {
+        width: 220px;
+        padding: 0 20px;
+        margin: 15px;
+    }
     .attribution {
+        margin: 300px auto 0;
         text-align: center;
+        font-size: 8px;
     }
 }
