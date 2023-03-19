@@ -48,10 +48,6 @@ h1 {
     font-size: 12px;
 }
 
-.annually {
-    display: none;
-}
-
 .product {
     display: flex;
     flex-direction: row;
@@ -151,7 +147,7 @@ h2 {
     display: block;
     width: 50px;
     height: 25px;
-    background: #aaa;
+    background: hsl(231, 16%, 91%);
     border-radius: 30px;
     transition: all 300ms linear;
     margin: 0 15px 0 15px;
@@ -163,7 +159,7 @@ h2 {
     content:"";
     width: 20px;
     height: 20px;
-    background: #ddd;
+    background: hsl(236, 72%, 79%);
     display: block;
     border-radius: 50%;
     top: 2.5px;
@@ -172,7 +168,7 @@ h2 {
 }
 
 .toggle-btn input:checked + label {
-    background: red;
+    background: hsl(237, 63%, 64%);
 }
 
 .toggle-btn input:checked + label:before {
@@ -181,4 +177,20 @@ h2 {
 
 .toggle-btn input {
     display: none;
+}
+
+@media screen and (max-width: 480px) {
+    main  {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+
+    .attribution {
+        text-align: center;
+    }
 }
