@@ -13,7 +13,7 @@ function clicado() {
         container_master.innerHTML = '<h2>&dollar;399.99</h2>'
 
         contador = contador + 1
-    }else {
+    }else { 
         
         container_basic.innerHTML = '<h2>&dollar;19.99</h2>'
         container_professional.innerHTML = '<h2>&dollar;24.99</h2>'
