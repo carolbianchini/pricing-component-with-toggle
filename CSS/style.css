@@ -12,7 +12,7 @@ body {
 }
 
     main {
-    background: url(../images/bg-bottom.png) bottom left, url(../images/bg-top.png) top right;
+    background: url("/images/bg-bottom.png") bottom left, url("/images/bg-top.png") top right;
     background-repeat: no-repeat;
     background-size: 20%;
     height: 80vh;
