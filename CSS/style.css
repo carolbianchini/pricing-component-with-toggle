@@ -8,24 +8,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:hsl(231, 16%, 91%);
+    /*background-color:hsl(231, 16%, 91%);*/
 }
 
-main {
-background: url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-bottom.svg") no-repeat bottom left, url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-top.svg") no-repeat top right;
-background-size: 20%;
-height: 80vh;
-background-color:hsl(240, 78%, 98%);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 75%;
-margin: 70px auto;
-box-shadow: 10px 10px 7px 10px hsl(240, 89%, 89%);
-font-weight: bold;
-padding: 0 50px 0 0;
-}
+    main {
+    background: url(../images/bg-bottom.png) bottom left, url(../images/bg-top.png) top right;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    height: 80vh;
+    background-color:hsl(240, 78%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 70px auto;
+    box-shadow: 10px 10px 7px 10px hsl(240, 89%, 89%);
+    font-weight: bold;
+    padding: 0 50px 0 0;
+    }
 
 .head {
     display: flex;
@@ -197,7 +198,7 @@ a {
         justify-content: center;
         text-align: center;
         height: 1600px;
-        background: url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-bottom.svg") no-repeat bottom left, url("file:///C:/Users/anabi/OneDrive/%C3%81rea%20de%20Trabalho/Mentoria/pricing-component-with-toggle-master/images/bg-top.svg") no-repeat top right;
+        background: url("/images/bg-bottom.png") no-repeat bottom left, url("/images/bg-top.png") no-repeat top right;
         background-color:hsl(240, 78%, 98%);
     }
 
@@ -219,6 +220,7 @@ a {
         width: 220px;
         padding: 0 20px;
         margin: 15px;
+        box-shadow: 10px 10px 7px 2px hsl(240, 89%, 89%);
     }
     .attribution {
         margin: 300px auto 0;
