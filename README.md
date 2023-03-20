@@ -13,6 +13,9 @@
 
 O projeto trata-se de um componente de preços com um toggle que lhe possibilita a alternância de visualização do proço mensal e anual
 
+![mensally1](https://user-images.githubusercontent.com/122060348/226214866-be4b74c2-2c6e-4dd6-86b3-ee2daf7f9fc8.png)
+
+![Annually](https://user-images.githubusercontent.com/122060348/226214877-a31b4675-09d2-4d6e-bbb7-033e258ae783.png)
 
 
 ## Tecnologias Utilizadas
