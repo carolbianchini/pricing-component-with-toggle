@@ -12,7 +12,7 @@ body {
 }
 
     main {
-    background: url("/images/bg-bottom.png") bottom left, url("/images/bg-top.png") top right;
+    background: url(../images/bg-bottom.png) bottom left, url(../images/bg-top.png) top right;
     background-repeat: no-repeat;
     background-size: 20%;
     height: 80vh;
@@ -198,7 +198,7 @@ a {
         justify-content: center;
         text-align: center;
         height: 1600px;
-        background: url("/images/bg-bottom.png") no-repeat bottom left, url("/images/bg-top.png") no-repeat top right;
+        background: url(../images/bg-bottom.png) no-repeat bottom left, url(../images/bg-top.png) no-repeat top right;
         background-color:hsl(240, 78%, 98%);
     }
 
